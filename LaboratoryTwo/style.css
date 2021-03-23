@@ -56,43 +56,85 @@ body {
 
 #circles {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #7cbfdf;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.circle:hover {
+    opacity: 0.85;
 }
 
 #circle1 {
-    width: 200px;
-    height: 200px;
-    background-color: #7cbfdf;
-    border-radius: 50%;
-    opacity: 0.7;
-    margin-right: -1500px;
-}
-#circle1:hover {
-    opacity: 0.85;
+    margin-right: -20%;
 }
 
 #circle2 {
-    width: 200px;
-    height: 200px;
-    background-color: #7cbfdf;
-    border-radius: 50%;
-    opacity: 0.7;
-    margin-left: -500px;
-    margin-right: -1000px;
-}
-#circle2:hover {
-    opacity: 0.85;
+    margin-left: -35%;
+    margin-right: -35%;
 }
 
 #circle3 {
-    width: 200px;
-    height: 200px;
-    background-color: #7cbfdf;
-    border-radius: 50%;
-    opacity: 0.7;
-    margin-left: -1500px;
+    margin-left: -20%;
 }
-#circle3:hover {
-    opacity: 0.85;
+
+#columns-two {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+#columns-two img {
+    width: 80px;
+}
+
+.lines {
+   line-height: 30px; 
+}
+
+#column-two a {
+    line-height: 30px;
+    text-decoration: none;
+    color: #7cbfdf;
+}
+
+#column-four a {
+    text-decoration: none;
+    color: #7cbfdf;
+}
+
+.title {
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+
+#feet {
+    height: 200px;
+    background-color: #242e30;
+    background-image: url(/LaboratoryTwo/assets/zabek.jpg);
+    background-repeat: repeat-x;
+    text-align: center;  
+    padding-top: 50px;
+}
+
+.normal-text {
+    color: gray;
+}
+
+.lighted-text {
+    color: honeydew;
 }
