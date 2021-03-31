@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-image: url(/LaboratoryThree/assets/tlo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main {
+    width: 50vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #807a7b;
+}
+header img {
+    width: 200px;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: cornsilk;
+
+}
+
+.photo {
+    padding: 5 5 5 5;
+}
+
+
