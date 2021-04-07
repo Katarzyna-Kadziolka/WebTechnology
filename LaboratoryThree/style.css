@@ -33,6 +33,10 @@ header img {
     flex-direction: column;
     margin-top: 20px;
     background-color: white;
+    width: 500px;
+    height: 500px;
+    justify-content: space-evenly;
+    
 }
 
 .row {
@@ -41,8 +45,7 @@ header img {
 }
 
 .photo {
-    padding: 5px;
-    width: 105px;
+    width: 100px;
 }
 
 #text-div {
