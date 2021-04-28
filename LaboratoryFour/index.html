@@ -28,20 +28,21 @@
                 </div>
                 <div id="label-text">
                     <span class="grey-text" id="labels">Labels</span><br>
-                    <div>
-                        <div class="rec">
+                    <div class="rec-content">
+                        <div>
                             <div id="yellow-rectangle" class="rectangle"></div>
                         </div>
-                        Private
+                        <div class="rec-text">Private</div>
+                        
                     </div>
-                    <div>
-                        <div class="rec">
+                    <div class="rec-content">
+                        <div>
                             <div id="blue-rectangle" class="rectangle"></div>
                         </div>
                         Job
                     </div>
-                    <div>
-                        <div class="rec">
+                    <div class="rec-content">
+                        <div>
                             <div id="green-rectangle" class="rectangle"></div>
                         </div>
                         Flights
@@ -50,79 +51,107 @@
             </div>
         </menu>
         <section>
-            <div>
-                <div id="clicked-mail">
+            <div class="mail" id="clicked-mail">
+                <div>
                     <img src="/LaboratoryFour/assets/p5.png" alt="photo-five">
                 </div>
                 <div>
                     <span class="nick">May June</span><br>
                     <span class="title">New York New Yoork</span><br>
-                    <span class="mail-content">Hey, confirm our meeting today, Fifth Avenue. Hmm?</span>
+                    <div  class="mail-content">
+                        <span >Hey, confirm our meeting today, Fifth Avenue. Hmm?</span>
+                    </div>                   
                 </div>
-                <div class="important">
+            </div>
+            <div class="mail" id="important">
+                <div>
                     <img src="/LaboratoryFour/assets/p4.png" alt="photo-four">
                 </div>
                 <div>
                     <span class="nick">Johny Cash</span><br>
                     <span class="title">Re: Pull Requests</span><br>
-                    <span class="mail-content">Really, better give that money back. Papa Joe is waiting.</span>
+                    <div class="mail-content">
+                        <span >Really, better give that money back. Papa Joe is waiting.</span>
+                    </div>
                 </div>
-                <div class="important">
+            </div>
+            <div class="mail" id="important2">
+                <div>
                     <img src="/LaboratoryFour/assets/p3.png" alt="photo-three">
                 </div>
                 <div>
                     <span class="nick">Your Wordpress</span><br>
                     <span class="title">Last warning</span><br>
-                    <span class="mail-content">Your previous drupal site had 12 errors, 15 warnings. It sucs!</span>
+                    <div class="mail-content">
+                        <span>Your previous drupal site had 12 errors, 15 warnings. It sucs!</span>
+                    </div>
                 </div>
+            </div>
+            <div class="mail">
                 <div>
                     <img src="/LaboratoryFour/assets/p2.png" alt="photo-two">
                 </div>
                 <div>
                     <span class="nick">June Ray</span><br>
                     <span class="title">Re: That night</span><br>
-                    <span class="mail-content">Excepteur sint occaecat cupidata non proident, sunt in culpa.</span>
+                    <div class="mail-content">
+                        <span>Excepteur sint occaecat cupidata non proident, sunt in culpa.</span>
+                    </div>
                 </div>
+            </div>
+            <div class="mail">
                 <div>
                     <img src="/LaboratoryFour/assets/p1.png" alt="photo-one">
                 </div>
                 <div>
                     <span class="nick">Andrew Clearwater</span><br>
                     <span class="title">What about materials?</span><br>
-                    <span class="mail-content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</span>
+                    <div class="mail-content">
+                      <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</span>  
+                    </div>
                 </div>
+            </div>
+            <div class="mail">
                 <div>
                     <img src="/LaboratoryFour/assets/p6.png" alt="photo-six">
                 </div>
                 <div>
                     <span class="nick">Chris Duck</span><br>
                     <span class="title">Donec sagittis dolor ut quam pharetra pretium varius in nibh</span><br>
-                    <span class="mail-content">Mauris tempor mi vitae sem aliquet pharetra. Fusce in dui purus, nec malescuada mauris.</span>
+                    <div class="mail-content">
+                        <span>Mauris tempor mi vitae sem aliquet pharetra. Fusce in dui purus, nec malescuada mauris.</span>
+                    </div>
                 </div>
+            </div>
+            <div class="mail">
                 <div>
                     <img src="/LaboratoryFour/assets/p6.png" alt="photo-six">
                 </div>
                 <div>
                     <span class="nick">Helen Dominic</span><br>
                     <span class="title">You're crazy, really!</span><br>
-                    <span class="mail-content">Check this one before you'll jump!</span>
+                    <div class="mail-content">
+                       <span>Check this one before you'll jump!</span> 
+                    </div>
                 </div>
             </div>
         </section>
-        <article>
-            <div>
-                <div>
+        <article class="article">
+            <div id="title-div">
+                <div id="title-left">
                     <h1>Aliquam ac feugiat dolor</h1>
-                    From <a href="https://www.google.com/">Eno Uqa</a> at <span id="date">13:16pm, May 8, 20015</span>
+                    From <a href="https://www.google.com/">Eno Uqa</a> at <span id="date">13:16pm, May 8, 2015</span>
                 </div>
-                <div>
-                    <div>
-                        <div class="button">Reply</div>
+                <div id="title-right">
+                    <div class="button">Reply</div>
+                    <div id="two-buttons">
                         <div class="button">Forward</div>
+                        <div class="button">Move to</div>
                     </div>
-                    <div class="button">Move to</div>
                 </div>
             </div>
+        </article>
+        <div class="article" id="article-bottom">
             <div>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis perspiciatis inventore nesciunt adipisci in 
                 vitae perferendis ducimus magni, nulla deserunt iure placeat necessitatibus minus, pariatur repellendus eum rerum quas. 
@@ -149,7 +178,7 @@
                 Regards,<br>
                 Tilo
             </div>
-        </article>
+        </div>
     </main>
 </body>
 </html>
