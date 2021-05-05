@@ -160,10 +160,7 @@ article {
 }
 
 @media screen and (min-width: 768px) {
-    main {
-        display: flex;
-        flex-direction: row;
-    }
+    
     #menu-div {
         visibility: hidden;
     }
@@ -182,18 +179,8 @@ article {
 }
 
 @media screen and (min-width: 992px) {
-    main {
+    #two-buttons {
         display: flex;
-        flex-direction: row;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    main {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-
 
