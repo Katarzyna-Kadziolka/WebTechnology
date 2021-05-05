@@ -8,6 +8,7 @@ body {
 
 main {
     padding: 0 0 0 0;
+    overflow: scroll;
 }
 
 menu {
@@ -152,5 +153,47 @@ article {
 }
 
 @media screen and (min-width: 640px) {
-    
-} 
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+    #menu-div {
+        visibility: hidden;
+    }
+    menu {
+        padding-left: 0;
+    }
+    #menu-text {
+        padding-left: 10px;
+    }
+    #label-text {
+        padding-left: 10px;
+    }
+    section {
+        width: 2500px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
