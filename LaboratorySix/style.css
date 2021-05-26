@@ -1,0 +1,74 @@
+body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#head {
+    background-image: url("Images/masthead@2x.jpg");
+}
+
+#top-part {
+    border-bottom: 1px solid #cad2d7;
+    padding: 30px 0px 25px;
+}
+
+#logo {
+    width: 131px;
+}
+
+#image-grid {
+    display: grid;
+    justify-content: center;
+    padding: 0px 0px 20px;
+}
+
+#menu-div {
+    display: grid;
+    justify-content: center;
+    margin: 8px 6px 9.6px 0px;
+}
+
+#menu-div select {
+    width: 378.11px;
+    height: 21px;
+    font-size: 1rem;
+}
+
+#h1-div {
+  margin: 25px 0px 15px;  
+}
+#h1-div h1 {
+    color: #fff;
+    font-size: 72px;
+    font-family: robotoblack;
+}
+
+#h3-div {
+   margin: 25px 0px 14px; 
+}
+#h3-div h3 {
+    color: #e2e2e2;
+    font-size: 28px;
+    font-family: aleoitalic;
+}
+
+#h5-div {
+    margin: 25px 0px 12px;
+}
+#h5-div h5{
+    color: #fff;
+    font-size: 24px;
+    font-family: robotoblack;
+}
+
+#text-div {
+    max-width: 18px 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: robotoblack;
+}
+
+#bottom-part {
+    margin: 0 4% 30px;
+    padding-bottom: 30px;
+}
