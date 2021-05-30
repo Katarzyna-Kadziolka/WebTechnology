@@ -1,29 +1,10 @@
 body {
     padding: 0 0 0 0;
-    margin: 0 0 0 0;
+    background-color: #f3f4f5;
 }
 
 p {
     margin: 1em 0;
-}
-
-#head {
-    position: relative;
-}
-
-#head::after {
-    background: linear-gradient(rgba(168, 172, 180, 0.7), rgba(168, 172, 180, 0.7)), url("Images/masthead@2x.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 }
 
 #top-part {
@@ -60,82 +41,39 @@ p {
     overflow: hidden !important;
 }
 
-#h1-div {
-    margin: 25px 0px 15px;  
-}
-#h1-div h1 {
-    color: #fff;
-    font-size: 72px;
-    font-family: robotoblack;
-}
-
-#h3-div {
-   margin: 25px 0px 14px; 
-}
-#h3-div h3 {
-    color: #e2e2e2;
-    font-size: 28px;
-    font-family: aleoitalic;
-}
-
-#h5-div {
-    margin: 25px 0px 12px;
-}
-#h5-div h5{
-    color: #fff;
-    font-size: 24px;
-    font-family: robotoblack;
-}
-
-#text-div {
-    max-width: 18px 0px;
-    color: #fff;
-    font-size: 18px;
-    font-family: robotoregular;
-}
-
-#bottom-part {
-    margin-right: 5%;
-    margin-top: 18%;
-    margin-left: 5%;
-    padding-bottom: 50px;
-    opacity: 1;
-}
-
-#text-div a {
-    text-decoration: none;
-    color: #3c4a52;
-    font-family: 'robotobold';
-}
-
 article {
-    padding: 25px 20px 50px 25px;
-    background-color: #f3f4f5;
+    display: grid;
+    color: #656A6F;
+    font-family: robotoregular;
+    font-size: 16px;
+    padding: 25px 0px 50px;
+    margin: 0px 7px 20px 7px;
     line-height: 1.4;
 }
 
-.article-part {
-    color: #656A6F;
-    font-size: 16px;
-    font-family: robotoregular;
-    margin: 0px 0px 30px;
+article img {
+    width: 95%;
 }
 
-.article-part h2 {
-    color: #2D3438;
-    font-size: 36px;
-    font-family: robotobold;
-    margin: 15px 0px 18px;
-}
-
-.article-part p {
+#mock-div {
+    display: flex;
+    justify-content: center;
     margin: 16px 0px;
 }
 
-.article-part a {
-    text-decoration: none;
-    color: #3c4a52;
-    font-family: 'robotobold';
+#mock {
+    border: 7px solid #fff;
+}
+
+h1 {
+    color: #2D3438;
+    font-size: 66px;
+    font-family: robotobold;
+    margin: 0px;
+}
+
+#aboutme-title {
+    margin: 18px 0px 8px 0px;
 }
 
 .symbol {
@@ -147,6 +85,21 @@ article {
     font-size: 56px;
     padding-left: 3px;
 }
+
+#ap1 {
+    color: #3C4A52;
+    font-size: 24px;
+    font-family: aleoitalic;
+    margin: 0px 0px 10px;
+}
+
+#ap2 {
+    color: #656A6F;
+    font-size: 16px;
+    font-family: robotoregular;
+    margin: 0px 0px 15px;
+}
+
 
 footer {
     background-color: #f3f4f5;
