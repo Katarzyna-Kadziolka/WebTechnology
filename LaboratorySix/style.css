@@ -163,14 +163,51 @@ footer {
 
 #logos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 6fr 1fr 6fr;
+}
+
+#logos img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
 }
 
 #l1 {
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
+#l2 {
+    display: flex;
+    justify-content: center;
+}
+
+#l3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#copyright-div {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#copyright-div img {
+    width: 45px;
+    height: 19px;
+}
+
+#c1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 7px;
+}
+
+#c2 {
+    display: flex;
+    justify-content: flex-start;
+}
 
 @font-face {
     font-family: 'aleoitalic';
