@@ -86,10 +86,149 @@ h1 {
     text-decoration: none;
 }
 
-#highlight {
+.highlight {
     color: #ffc000;
 }
- 
+
+#heading-two {
+    margin-top: 5px;
+}
+
+h2 {
+    color: #2D3438;
+    font-size: 36px;
+    font-family: robotobold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    color: #2D3438;
+    font-size: 28px;
+    font-family: robotobold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    color: #2D3438;
+    font-size: 24px;
+    font-family: robotobold;
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading-five {
+    margin: 25px 0 .5em;
+}
+
+h5 {
+    font-size: 24px;
+    font-family: robotobold;
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading-six {
+    margin: 25px 0 .5em;
+}
+
+h6 {
+    font-size: 14px;
+    font-family: robotobold;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c4a52;
+    font-family: robotobold;
+}
+
+#horizontal-rules {
+    margin: 25px 0px 12px;
+}
+
+.hr-normal {
+    border-top: 1px solid #cad2d7;
+    margin: 48px 0px;
+}
+
+#hr-dash {
+    border-top: 1px dashed #cad2d7;
+    margin: 48px 0px;
+}
+
+#hr-dot {
+    border-top: 1px dotted #cad2d7;
+    margin: 48px 0px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 1fr;
+    align-items: center;
+}
+
+.buttons {
+    background-color: #ffc000;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: .6em 1.2em;
+}
+
+#button-one {
+    font-size: 18px;
+    margin: 9px 5px;
+}
+
+#button-two {
+    font-size: 14px;
+    margin: 7px 5px;
+}
+
+#button-three {
+    font-size: 12px;
+    margin: 6px 5px;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.images {
+    border: 7px solid #fff;
+    width: 95%;
+}
+
+table {
+    border: 1px solid #dde1e5;
+    text-align: left;
+    width: 100%;
+    background: #ffffff;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    padding: .5em;
+    border: 1px solid #dde1e5;
+    background-color: #ebedef;
+    vertical-align: top;
+}
+
+td {
+    padding: .5em;
+    border: 1px solid #dde1e5;
+    vertical-align: top;
+}
+
+.darker-td {
+    background-color: #f8f8f8;
+}
 
 
 @font-face {
