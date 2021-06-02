@@ -5,8 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="poststyle.css">
 </head>
 <body>
-    
+    <div id="head">
+        <div id="top-part">
+            <div id="image-grid">
+                <img src="Images/logo@2x.png" alt="Selfy." id="logo">
+            </div>
+            <div id="menu-div">
+                <select name="menu" id="menu" onchange="window.location=this.options[this.selectedIndex].value">
+                    <option>Navigation</option>
+                    <option value="index.html">Home</option>
+                    <option value="about.html">About</option>
+                    <option value="styles.html">Styles</option>
+                    <option value="gallery.html">Gallery</option>
+                    <option value="blog.html">Blog</option>
+                    <option value="contact.html">Contact</option>
+                </select> 
+            </div>
+        </div>
+    </div>
+
+    <article>
+        <div id="content">
+            <h2>Post Title for an Interesting Article<span class="dot symbol">.</span></h2>
+            <h6>Posted on 13 April 2013</h6>
+            <div class="image-div">
+                <img src="Images/smaller.png" alt="mock" class="images">
+            </div>
+            <p class="italic-text">
+                Commodo vivamus sagittis lacus vel augue laore sagittis lacus vel augue laoreet rutrum. Fusce dapibus, 
+                tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+            </p>
+            <p>
+                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. 
+                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque 
+                ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Donec 
+                ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Vivamus 
+                sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+            </p>
+            <p>
+                Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. 
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <h4>Section Heading</h4>
+            <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, 
+                tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis 
+                ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id 
+                nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus 
+                commodo, tortor mauris condimentum nibh.
+            </p>
+            <div id="section-heading">
+                <div>
+                    <div class="image-div">
+                        <img src="Images/mock6.jpg" alt="mock" class="images">
+                    </div>
+                    <p class="italic-text">
+                        <span id="special-text">Quote:</span> "Integer posuere erat a ante dapibus posuere velit aliquet. Cras mattis 
+                        purus sit amet."
+                    </p>
+                    <h6>James Dean</h6>
+                </div>
+                <div>
+                    <p>
+                        Morbi leo risus, porta ac consecte turac, vestilum ateros. Vesti bulum id ligula porta felis euismod semper. 
+                        Maecenas sed diam eget risus varius sit amet non magna. Donec ullamcorper. Sed posuere consectetur est at lobortis. 
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
+                        Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
+                    </p>
+                    <p>
+                        Nullam id dolor id nibh ultricies vehicula ut id elit.Sed posuere consectetur est at lobortis. Fusce dapibus, tellus 
+                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta 
+                        felis euismod semper. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
+                </div>
+            </div>
+            <h4>Conclusion</h4>
+            <p>
+                Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Aenean lacinia 
+                bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet 
+                fermentum. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere 
+                velit aliquet. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </p>
+            <div class="a-div">
+                <a href="blog.html"><span class="symbol">g</span>Back to Blog</a>
+            </div>
+        </div>
+        <div id="latest-post">
+            <h2>Latest Posts<span class="symbol dot">.</span></h2>
+            <ul>
+                <li><a href="post.html" class="special-link">Donec id elilit non mi porta gravida</a></li>
+                <li><a href="post.html" class="special-link">Liamcorper nulla non metus auctor</a></li>
+                <li><a href="post.html" class="special-link">Bronem sed odio duisius</a></li>
+                <li><a href="post.html" class="special-link">Donec id elit non mi porta gravida at eget metus vamus sagittis.</a></li>
+                <li><a href="post.html" class="special-link">Faucibus dolor auctorauris contum</a></li>
+            </ul>
+            <div class="hr-normal"></div>
+            <p id="special-paragraph">
+                Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit ametr 
+                nulla non metus auctor fringilla.
+            </p>
+        </div>
+    </article>
+
+
+    <footer>
+        <div id="logos">
+            <div id="l1">
+                <a href="https://www.google.pl/"><img src="Images/icon-facebook@2x.png" alt="facebook"></a>  
+            </div>
+            <div id="l2">
+                <a href="https://www.google.pl/"><img src="Images/icon-twitter@2x.png" alt="twitter"></a>    
+            </div>
+            <div id="l3">
+                <a href="https://www.google.pl/"><img src="Images/icon-linkedin@2x.png" alt="linkedin"></a>    
+            </div>
+        </div>
+        <div id="copyright-div">
+            <div id="c1">
+                <img src="Images/logo-foot@2x.png" alt="Selfy">    
+            </div>
+            <div id="c2">
+                <p>
+				    © Copyright Selfy 2013
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
