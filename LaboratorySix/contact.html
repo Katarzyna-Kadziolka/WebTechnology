@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+<body>
+    <div id="head">
+        <div id="top-part">
+            <div id="image-grid">
+                <img src="Images/logo@2x.png" alt="Selfy." id="logo">
+            </div>
+            <div id="menu-div">
+                <select name="menu" id="menu" onchange="window.location=this.options[this.selectedIndex].value">
+                    <option>Navigation</option>
+                    <option value="index.html">Home</option>
+                    <option value="about.html">About</option>
+                    <option value="styles.html">Styles</option>
+                    <option value="gallery.html">Gallery</option>
+                    <option value="blog.html">Blog</option>
+                    <option value="contact.html">Contact</option>
+                </select> 
+            </div>
+        </div>
+    </div>
+
+    <article>
+        <div id="content">
+            <h1>Contact Me<span class="dot symbol">.</span></h1>
+            <p class="italic-text">
+                Praesent commodo cursus magna, venenatis vestibulum. Donec id elit non mi porta gravida at eget vel scelerisl 
+                consectetur etsie.
+            </p>
+            <p>
+                Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus 
+                dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <div id="contact-area">
+                <input type="text" name="name" id="name" placeholder="What's your name" autofocus>
+                <input type="text" name="email" id="email" placeholder="Email goes here">
+                <textarea name="message" id="message" cols="20" rows="5" placeholder="Whats this about?"></textarea>
+                <div id="button-one" class="buttons">
+                    Send Message
+                </div>
+            </div>
+        </div>
+        <div id="right-menu">
+            <h2>Networks<span class="dot symbol">.</span></h2>
+            <ul>
+                <li><a href="post.html" class="special-link">Follow Me on Facebook</a></li>
+                <li><a href="post.html" class="special-link">Hanging out on Dribble</a></li>
+                <li><a href="post.html" class="special-link">Tweeting up a storm</a></li>
+            </ul>
+            <div class="hr-normal"></div>
+            <p class="special-text">
+                Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit ametr 
+                nulla non metus auctor fringilla.
+            </p>
+            <p class="a-div">
+                <a href="styles.html"><span class="symbol">g</span>See the Full Theme Styles</a>
+            </p>
+        </div>
+    </article>
+
+    <footer>
+        <div id="logos">
+            <div id="l1">
+                <a href="https://www.google.pl/"><img src="Images/icon-facebook@2x.png" alt="facebook"></a>  
+            </div>
+            <div id="l2">
+                <a href="https://www.google.pl/"><img src="Images/icon-twitter@2x.png" alt="twitter"></a>    
+            </div>
+            <div id="l3">
+                <a href="https://www.google.pl/"><img src="Images/icon-linkedin@2x.png" alt="linkedin"></a>    
+            </div>
+        </div>
+        <div id="copyright-div">
+            <div id="c1">
+                <img src="Images/logo-foot@2x.png" alt="Selfy">    
+            </div>
+            <div id="c2">
+                <p>
+				    © Copyright Selfy 2013
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
