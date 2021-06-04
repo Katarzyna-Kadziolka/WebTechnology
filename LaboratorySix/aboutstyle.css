@@ -158,6 +158,39 @@ footer {
     justify-content: flex-start;
 }
 
+.buttons-m {
+    color: #ffffff;
+    border-radius: 3px;
+    padding: .6em 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 5px;
+}
+
+.button-menu {
+    color: #2d3438;
+    font-family: robotobold;
+    font-size: 20px;
+    margin: 9px 5px;
+    width: 50px;
+    height: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-m:hover {
+    background-color: #ffc000;
+}
+
+.button-menu:hover {
+    color: #ffffff;
+}
+
+#buttons-menu {
+    display: none;
+}
+
 @font-face {
     font-family: 'aleoitalic';
     src: url('font/aleo-italic-webfont.eot');
@@ -252,4 +285,67 @@ footer {
     font-weight: normal;
     font-style: normal;
 
+}
+
+@media screen and (min-width: 768px) {
+    
+    #menu-div {
+        display: none;
+    }
+
+    #buttons-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #buttons-menu a {
+        text-decoration: none;
+    }
+
+    #image-grid {
+        display: grid;
+        justify-content: flex-start;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #logos {
+        justify-content: end;
+    }
+
+    #ap-2-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #ap1 {
+        margin-right: 200px;
+        margin-left: 20px;
+    }
+
+    #ap2 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #ap3 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+
+    #top-part {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 }
